@@ -1,5 +1,6 @@
 import './App.css';
-import MainRoute from './Routes/MainRoute';
+import 'antd/dist/antd.css';
+ import MainRoute from './Routes/MainRoute';
 
 function App() {
   return (
