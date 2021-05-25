@@ -6,7 +6,9 @@ export default function Forms(){
         <Card className='form-card' title="Registration Form" extra={<a href="/login">Already Have an Account?</a>}>
             <Form className='form'>
               <Space direction='vertical' size='middle'>
+                  <Row style={{justifyContent:"center"}}>
               <Image className='logo' preview={false} src='https://lh3.googleusercontent.com/proxy/uDuRWecMCF04B5y9FsBNg6Trb_QLsKOemJ7bI7thhpGRMLdT2PktgMDPqaxtPtOIpC75qppyWwuzCz8N3hoyj9DDNhqlPkn1Spb2ONBdgDk__9qf_JTluGw9J4laT9ext87KGT-BdHKUhLT9' alt='Error'/>
+                  </Row>
               <Typography.Title level={3} className='brand_name'>Company Name</Typography.Title>
               <Row gutter={30}>
                 <Col span={12}>

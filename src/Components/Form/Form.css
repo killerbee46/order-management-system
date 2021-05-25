@@ -10,7 +10,8 @@
 }
 .form{
     font-size: 1.3em;
-    width: max-content;
+    justify-content: center;
+    width: 100%;
 }
 .ant-input{
     background-color: rgba(94, 94, 94, 0.267);
@@ -23,11 +24,10 @@
     height: auto;
     font-size: 1.1em;
 }
+
 .logo{
     height: 50px;
     width: 100px;
-    margin-right: auto;
-    margin-left: 18vw;
 }
 .brand_name{
     text-align: center;
