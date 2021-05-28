@@ -1,0 +1,19 @@
+.card{
+    background-color: aliceblue;
+}
+.fname{
+    font-size: 2em;
+    font-weight: 500;
+}
+.address{
+    font-size: 1.4em;
+}
+.email{
+    font-size: 1.4em;
+}
+.contact{
+    font-size: 1.4em;
+}
+.social{
+    font-size: 1.4em;
+}
