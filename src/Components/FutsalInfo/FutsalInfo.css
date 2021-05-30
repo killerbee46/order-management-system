@@ -1,5 +1,6 @@
-.card{
+.infocard{
     background-color: aliceblue;
+    height: 100%;
 }
 .fname{
     font-size: 2em;

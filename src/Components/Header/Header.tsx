@@ -12,6 +12,7 @@ export default function Header(){
             <Menu className='nav-menu'>
                 <MenuItem><a href="/">Home</a></MenuItem>
                 <MenuItem><a href="/about">About Us</a></MenuItem>
+                <MenuItem><a href="/contact">Contact</a></MenuItem>
                 <MenuItem><a href="/location">Location</a></MenuItem>
                 <MenuItem><a href="/booking">Book Now</a></MenuItem>
             </Menu>

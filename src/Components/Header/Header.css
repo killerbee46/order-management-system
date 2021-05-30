@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     background-color: bisque;
+    height: 9vh;
 }
 .logo{
+    margin: 5px;
     width: 100px;
     height: 50px;
 }

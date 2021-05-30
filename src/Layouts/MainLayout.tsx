@@ -1,16 +1,16 @@
 import { Layout } from "antd";
 import { Content } from "antd/lib/layout/layout";
-import Banner from "../Components/Banner/Banner";
-import FutsalInfo from "../Components/FutsalInfo/FutsalInfo";
+import './MainLayout.css';
+import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 
-export default function MainLayout(){
+export default function MainLayout(props:any){
     return(
         <Layout>
-            <Content>
-                <Header/>
-                <Banner/>
-                <FutsalInfo/>
+            <Content style={{padding:0}}>
+                <div className="mainheader"><Header/></div>
+                <div className="maincontent">{props.children}</div>
+                <div className="mainfooter"><Footer/></div>  
             </Content>
 
         </Layout>
