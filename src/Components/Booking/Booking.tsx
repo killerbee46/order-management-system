@@ -38,7 +38,7 @@ export default function Booking() {
                 </Row>
                 <Row className="detail" justify='center' align='middle'> 
                   <Col span={12} className='index'>
-                  Index: <span className='red'>Booked</span><span className='green'>Available</span>
+                  Index: <span className='neutral'>Total:12</span><span className='red'>Booked:6</span><span className='green'>Available:6</span>
                 </Col>  
                 <Col span={12} className="you-booked">
                     <Typography.Paragraph className='booked'>Your Booking is at "TIME"</Typography.Paragraph>

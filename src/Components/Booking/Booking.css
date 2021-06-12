@@ -9,9 +9,6 @@
   box-shadow: 2px 2px rgba(0, 0, 0, 0.199);
   text-align: center;
 }
-.ant-row{
-    text-align: center;
-}
 .time{
     padding: 10px;
     /* background-color: greenyellow; */
@@ -42,5 +39,10 @@
 .green{
     padding: 10px;
     background-color: greenyellow;
+    margin-left: 10px;
+}
+.neutral{
+    padding: 10px;
+    background-color: rgb(167, 213, 253);
     margin-left: 10px;
 }

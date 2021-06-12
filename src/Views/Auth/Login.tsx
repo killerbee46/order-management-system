@@ -1,9 +1,11 @@
+import Forms from "../../Components/Form/Form";
+import LoginForm from "../../Components/LoginForm/LoginForm";
 import Profile from "../../Components/UserProfile/Profile";
 
 export default function Login(){
     return(
-        <div>
-            Login Pge
-        </div>
+        <Forms>
+            <LoginForm/>
+            </Forms>
     );
 }

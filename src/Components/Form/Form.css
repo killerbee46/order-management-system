@@ -1,7 +1,6 @@
 .form-card{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vh;
     width: 50vw;
     padding: 10px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.199);
@@ -14,21 +13,15 @@
     width: 100%;
 }
 .ant-input{
-    background-color: rgba(94, 94, 94, 0.267);
+    font-size: 1.3em;
 }
-.password{
-    background-color: rgba(94, 94, 94, 0.267);
-}
+
 .button{
     width: 100%;
     height: auto;
     font-size: 1.1em;
 }
 
-.logo{
-    height: 50px;
-    width: 100px;
-}
-.brand_name{
+/* .brand_name{
     text-align: center;
-}
+} */

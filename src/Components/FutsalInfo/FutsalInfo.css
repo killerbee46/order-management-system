@@ -1,6 +1,7 @@
 .infocard{
     background-color: aliceblue;
     height: 100%;
+    text-align: center;
 }
 .fname{
     font-size: 2em;

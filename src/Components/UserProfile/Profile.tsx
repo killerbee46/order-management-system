@@ -4,16 +4,14 @@ import './Profile.css';
 import PSmall from './PSmall/PSmall';
 
 export default function Profile() {
-    return (
-        <Card className='profile-card'>
-            <Row>
-                <Col className="brief" span={6}>
-                    <PSmall/>
-                </Col>
-                <Col className="more" span={18}>
-                    <PBig/>
-                </Col>
-            </Row>
-        </Card>
+    return (<div className='profile'>
+        <Col className="brief" span={12}>
+            <PSmall />
+        </Col>
+        {/* <Col className="more" span={18}>
+            <PBig />
+        </Col> */}
+    </div>
+
     );
 }

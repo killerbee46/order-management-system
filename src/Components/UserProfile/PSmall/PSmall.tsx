@@ -1,4 +1,5 @@
 import { Avatar, Col, Row, Space, Typography } from "antd";
+import SocialLink from "../../SocialLink/SocialLink";
 import './PSmall.css';
 
 export default function PSmall() { 
@@ -11,7 +12,7 @@ export default function PSmall() {
                 <Col className='detail'>
                     <Typography.Paragraph className='name'>User Name</Typography.Paragraph>
                     <Typography.Paragraph className='position'>Position</Typography.Paragraph>
-                    <Typography.Paragraph className='social_media'> <a href="#">F</a><a href="#">I</a><a href="#">T</a> </Typography.Paragraph>
+                    <SocialLink/>
                     <Typography.Paragraph className='address'>Address, Address</Typography.Paragraph>
                     <Typography.Paragraph className='email'>email@email.com</Typography.Paragraph>
                     <Typography.Paragraph className='contact'>741/852963</Typography.Paragraph>

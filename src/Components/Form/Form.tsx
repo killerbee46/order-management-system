@@ -1,41 +1,22 @@
 import { Button, Card, Col, Form, Image, Input, Row, Space, Typography } from 'antd';
+import Logo from '../Logo/Logo';
 import './Form.css';
 
-export default function Forms(){
+export default function Forms(props:any){
     return( 
-        <Card className='form-card' title="Registration Form" extra={<a href="/login">Already Have an Account?</a>}>
+      <div style={{padding:'20px'}}>
+        <Card className='form-card'>
             <Form className='form'>
-              <Space direction='vertical' size='middle'>
+              <Space direction='vertical' style={{width:'100%'}}>
                   <Row style={{justifyContent:"center"}}>
-              <Image className='logo' preview={false} src='https://lh3.googleusercontent.com/proxy/uDuRWecMCF04B5y9FsBNg6Trb_QLsKOemJ7bI7thhpGRMLdT2PktgMDPqaxtPtOIpC75qppyWwuzCz8N3hoyj9DDNhqlPkn1Spb2ONBdgDk__9qf_JTluGw9J4laT9ext87KGT-BdHKUhLT9' alt='Error'/>
+              <Logo/>
                   </Row>
-              <Typography.Title level={3} className='brand_name'>Company Name</Typography.Title>
-              <Row gutter={30}>
-                <Col span={12}>
-                  First Name* 
-                  <Input className='firstname'/>
-                </Col>
-                <Col span={12}>
-                Last Name* 
-                  <Input className='lastname'/>
-                </Col>
-              </Row>
-             <div>
-             Email Address* 
-              <Input className='email'/>
-             </div>
-             <div>
-             Password
-              <Input.Password className='password' />
-             </div>
-              <div>
-              Confirm Password 
-              <Input.Password className='password' /> 
-              </div>
-              <Button className='button' type='primary'>Register</Button>
+              {/* <Typography.Title level={3} className='brand_name'>Company Name</Typography.Title> */}
+              {props.children}
 
               </Space>
             </Form>
   </Card>
+  </div>
     );
 }

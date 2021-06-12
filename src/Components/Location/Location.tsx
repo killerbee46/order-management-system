@@ -4,7 +4,7 @@ import './Location.css';
 export default function Location(){
     return(
         <div>
-            <Typography.Title level={2} className="location-title">Our Location</Typography.Title>
+            <Typography.Title level={2} className="location-title">Contact</Typography.Title>
             <Row gutter={30} className="location-container">
                 <Col span={12}>
                     <div style={{paddingLeft:'20px',textAlign:"justify"}}>
@@ -12,6 +12,8 @@ export default function Location(){
                 <Divider style={{backgroundColor:'gray'}}/>
                 <Typography.Paragraph className='location-address'>Nilopool, Kapan, Kathmandu</Typography.Paragraph>
                 <Typography.Paragraph className='locate'>200 meters ahead of Nilopool Petrol Pump</Typography.Paragraph>
+                <Typography.Paragraph className='contact'><a href="callto:01-4454147">Call Us At: 01-4454147</a> </Typography.Paragraph>
+                <Typography.Paragraph className='email'><a href="mailto:whorse223@gmail.com">Email at: whorse223@gmail.com</a></Typography.Paragraph>
                     
                  <Row className='note'>
                 Note: Please check out the map on the right side --{'>'}
